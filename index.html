@@ -3,9 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <title>Conversor de Moedas -  Imersão Dev</title>
 </head>
 <body>
-    
+    <header class="cabecalho">
+        <img src="/imagens/cabecalho.png" alt="Conversor de Moedas" class="imagemCabecalho">
+    </header>
+    <section class="secaoCentralizada">
+        <h3 class="textoNegrito">Digite o valor para realizar a conversão</h3>  
+        <input type="number" name="valor" id="inputValor" placeholder="Digite o valor">
+        <h3 class="textoNegrito">Escolha qual moeda você quer converter</h3> 
+        <div class="divBotoes">           
+            <input class="botao" id="botaoEuro" type="button" value="Converter para Euro">
+            <input class="botao" id="botaoDolar" type="button" value="Converter para Dólar">
+            <input class="botao" id="botaoLibra" type="button" value="Converter para Libra">
+        </div>
+        <div class="resposta">
+            <h3 class="textoNegrito" id="textoResposta">O resultado da conversão apararecerá aqui...</h3> 
+        </div>
+        <footer class="rodape">
+            <p class="paragrafoRodape">&copy Alejandro Carvalho</p>
+        </footer>
+    </section>
+    <script src="script.js"></script>
 </body>
 </html>
