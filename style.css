@@ -1,0 +1,74 @@
+/*font-family: 'Open Sans', sans-serif;*/
+body{
+    margin: 0;
+    background-color: #00002B;
+}
+
+.cabecalho {
+    width:auto;
+    height:200px;
+    background-color: #00002B;
+    display: flex;
+    justify-content: center ;
+}
+.secaoCentralizada {
+    margin: auto;
+    width:900px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background-color: #00002B;
+    color: #FFF;
+    border: solid 5px #FFF;
+    border-radius:30px;
+}
+
+.textoNegrito {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+#inputValor {
+    width:400px;
+    height: 40px;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size:16px;
+    border: solid 5px rgb(255, 255, 255);
+    border-radius:15px;
+    background-color: rgb(255, 196, 0);
+}
+::placeholder{
+    color:#7f6868;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size:16px;
+    
+}
+
+.divBotoes{
+    display: flex;
+    width:auto;
+    gap:100px;
+}
+
+.botao{
+    height:60px;
+    padding:10px;
+    border: solid 5px rgb(255, 255, 255);
+    border-radius:20px;
+    background-color: rgb(255, 94, 0);
+    color:#FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size:16px;
+}
+
+.paragrafoRodape {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size:20px;
+}
